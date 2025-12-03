@@ -4,7 +4,7 @@
 ShiftLight::ShiftLight(uint8_t pin, uint8_t numLeds)
   : strip(numLeds, pin, NEO_GRB + NEO_KHZ800),
     _numLeds(numLeds),
-    _startRpm(7000),    // 기본값: 7000rpm부터 서서히 점등
+    _startRpm(1000),    // 기본값: 7000rpm부터 서서히 점등
     _fullRpm(10500),    // 10500rpm에서 풀 바
     _flashRpm(10000),   // 10000rpm 이상에서 플래시
     _flashState(false),
