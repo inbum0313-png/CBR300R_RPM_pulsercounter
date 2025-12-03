@@ -1,5 +1,5 @@
 /*
- * Cory J Fowler MCP_CAN 라이브러리용 예제
+ * Cory J Fowler MCP_CAN
  *  - PCV 내부 CAN ID : 0x0C00110A (29bit Extended)
  *  - 데이터[0] = 태그 (0x1C = RPM, 0xC5 = TPS)
  *  - 데이터[1] = LSB, 데이터[2] = MSB
